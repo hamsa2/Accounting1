@@ -31,11 +31,4 @@ public class Repository {
 public Product[] findAll() {
         return products;
 }
-
-    @Override
-    public String toString() {
-        return "Repository{" +
-                "products=" + Arrays.toString(products) +
-                '}';
-    }
 }

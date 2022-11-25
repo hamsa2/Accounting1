@@ -1,6 +1,9 @@
 public class Smartphone extends Product {
     private String manufacturer;
 
+    public Smartphone() {
+
+    }
     public String getManufacturer() {
 
         return manufacturer;
@@ -11,4 +14,7 @@ public class Smartphone extends Product {
         this.manufacturer = manufacturer;
     }
 
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
+    }
 }

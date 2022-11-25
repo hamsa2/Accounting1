@@ -1,8 +1,11 @@
 public class Product {
-    protected int id;
-    protected String name;
-    protected int price;
+    private int id;
+    private String name;
+    private int price;
 
+    public Product () {
+
+    }
     public Product(int id, String name, int price) {
         this.id = id;
         this.name = name;
@@ -21,9 +24,8 @@ public class Product {
         return price;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+    public void setId(int id) {this.id = id;}
+
 
     public void setName(String name) {
         this.name = name;
