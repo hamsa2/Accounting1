@@ -109,15 +109,5 @@ public class ManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void testSearch3() {
-        manager.add(Book2);
-        manager.add(Book3);
 
-
-        Product[] expected = {Book3};
-        "Book2"
-        Product[] actual = manager.searchBy();
-        Assertions.assertArrayEquals(expected, actual);
-    }
 }
