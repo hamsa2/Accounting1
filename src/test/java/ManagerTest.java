@@ -102,9 +102,9 @@ public class ManagerTest {
         manager.add(book2);
         manager.add(phone1);
         manager.add(phone2);
-        manager.searchBy("smos");
-        Product[] expected = {book1, book2, phone1, phone2};
-        Product[] actual = repo.findAll();
+        
+        Product[] expected = {book1};
+        Product[] actual = manager.searchBy("smos");
 
         Assertions.assertArrayEquals(expected, actual);
     }
